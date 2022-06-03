@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coys - Оформлення замовлення</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="ua">
+    <div class="wrapper" id="wrapper">
+        <header class="header" >
+            <div class="header__container container">
+                <div class="header__inner inner">
+                    <div class="burger__menu">  
+                        <div class="burger__menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <nav class="header__menu menu-header">
+                        <div class="header__content-mobile">
+                            <div class="header__symbol"><img src="img/symbol.svg" alt="Символ Coys"></div>
+                        </div>
+                        <ul class="menu-header__list">
+                            <li class="menu-header__item"><a href="" class="menu-header__link">Жінкам</a></li>
+                            <li class="menu-header__item"><a href="" class="menu-header__link">Чоловікам</a></li>
+                            <li class="menu-header__item"><a href="" class="menu-header__link">Контакти</a></li>
+                            <li class="menu-header__item _touch"><a href="" class="menu-header__link">Про бренд</a></li>
+                            <li class="menu-header__item _touch"><a href="" class="menu-header__link">Догляд</a></li>
+                        </ul>
+                        <div class="header__social-media social-media-header">
+                            <div class="social-media-header__link"><a href=""><img src="img/social-media/insta.svg" alt="Інстаграм Coys"></a></div>
+                            <div class="social-media-header__link"><a href=""><img src="img/social-media/facebook.svg" alt="Фейсбук Coys"></a></div>
+                        </div>
+                    </nav>
+                    <div class="header__logo">
+                        <a href="index.html"><img src="img/logo.svg" alt="Логотип магазина Coys"></a>
+                    </div>
+                    <div class="header__content">
+                        <div class="header__phone">
+                            <a href="tel:+380971234567">+38 097 123 45 67</a>
+                        </div>
+                        <div data-da=".menu-header__list, 769, last" class="header__cabinet cabinet-header">
+                            <a href="" class="cabinet-header__link menu-header__link">кабінет</a>
+                        </div>
+                        <div class="header__search search-header">
+                            <div class="search-header__icon"><img src="img/search-header.svg" alt="Пошук товарів"></div>
+                            <div class="search-header__body">
+                                <form class="search-header__form" action="#">
+                                    <input class="search-header__input" type="text" name="search">
+                                    <button class="search-header__button" type="submit"><img src="img/search-header.svg" alt="Пошук товарів"></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="header__cart cart-header">
+                            <a class="cart-header__link" href=""><img src="img/cart-header.svg" alt="Корзина товарів"></a>
+                            <span>1</span>
+                        </div>
+                        <div data-da=".header__content-mobile, 769, 2" class="header__language language-header">
+                            <div class="language-header__item _en"><a href="">EN</a></div>
+                            <div class="language-header__item _ua"><a href="">UA</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__checkout checkout">
+                <div class="checkout__container container">
+                    <div class="checkout__back back-checkout">
+                        <div class="product__header header-product">
+                            <a href="" class="header-product__link">Назад</a>
+                        </div>
+                    </div>
+                    <div class="checkout__body body-checkout">
+                        <div class="body-checkout__title">
+                            оформлення замовлення
+                        </div>
+                        <div class="body-checkout__info info-checkout">
+                            <form action="#" id="form" class="info-checkout__form">
+                                <div class="info-checkout__column">
+                                    <div class="info-checkout__item">
+                                        <label for="formName" class="info-checkout__label">Ваше ім'я та прізвище</label>
+                                        <input placeholder="Ваше ім'я та прізвище" id="formName" type="text" name="name" class="info-checkout__input _req">
+                                    </div>
+                                    <div class="info-checkout__item">
+                                        <label for="formEmail" class="info-checkout__label">Email</label>
+                                        <input placeholder="Ваш Email" id="formEmail" type="email" name="email" class="info-checkout__input _req _email">
+                                    </div>
+                                    <div class="info-checkout__item">
+                                        <label for="formTel" class="info-checkout__label">Телефон</label>
+                                        <input placeholder="+380" id="formTel" type="tel" name="tel" class="info-checkout__input _req">
+                                    </div>
+                                </div>
+                                <div class="info-checkout__column">
+                                    <div class="form__item info-checkout__item form__item-select">
+                                        <div class="form__label info-checkout__label">Країна</div>
+                                        <select aria-placeholder="" name="country" class="form__select info-checkout__select">
+                                            <option selected disabled hidden>Країна</option>
+                                            <option value="ua">Україна</option>
+                                            <option value="cz">Чехія</option>
+                                            <option value="pl">Польща</option>
+                                        </select>
+                                    </div>
+                                    <div class="form__item info-checkout__item form__item-select">
+                                        <div class="form__label info-checkout__label">Місто</div>
+                                        <select aria-placeholder="" name="country" class="form__select info-checkout__select">
+                                            <option selected disabled hidden>Місто</option>
+                                            <option value="kyiv">Київ</option>
+                                            <option value="praga">Прага</option>
+                                            <option value="warsaw">Варшава</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="body-checkout__payment payment-checkout">
+                            <div class="payment-checkout__title">
+                                Спосіб оплати:
+                            </div>
+                            <div class="payment-checkout__tabs _tabs">
+                                <div class="payment-checkout__items">
+                                    <div class="payment-checkout__item _tabs-item _active"><span>Unchecked item</span></div>
+                                    <div class="payment-checkout__item _tabs-item"><span>Checked item</span></div>
+                                </div>
+                                <div class="payment-checkout__body">
+                                    <div class="payment-checkout__block _tabs-block _active">
+                                        При розрахунку карткою Visa/Mastercard та після заповнення форми і підтвердження буде виконано перенаправлення на сайт платіжної системи
+                                    </div>
+                                    <div class="payment-checkout__block _tabs-block">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi numquam quod nesciunt. Tempore, possimus autem.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-checkout__delivery delivery-checkout">
+                            <div class="delivery-checkout__title">
+                                Спосіб доставки:
+                            </div>
+                            <div class="delivery-checkout__tabs _tabs">
+                                <div class="delivery-checkout__items">
+                                    <div class="delivery-checkout__item _tabs-item self-pickup-item"><span>Самовивіз з шоурму</span></div>
+                                    <div class="delivery-checkout__item _tabs-item courier-item"><span>Кур’єром</span></div>
+                                    <div class="delivery-checkout__item _tabs-item new-mail-item"><span>Новою поштою</span></div>
+                                    <div class="delivery-checkout__item _tabs-item ukr-mail-item"><span>Укрпоштою за кордон</span></div>
+                                </div>
+                                <div class="delivery-checkout__block _tabs-block self-pickup-block">
+                                    Шоурум А5 - м. Київ, вул. Велика Васильківська 5
+                                </div>
+                                <div class="delivery-checkout__block _tabs-block courier-block">
+                                    <form action="#" class="courier-block__form">
+                                        <div class="courier-block__row">
+                                            <div class="courier-block__text">
+                                                По Києву 70 грн
+                                            </div>
+                                        </div>
+                                        <div class="courier-block__row courier-block__row_second">
+                                            <div class="courier-block__item courier-block__item_street">
+                                                <label for="formStreetCur" class="info-checkout__label">Вулиця</label>
+                                                <input placeholder="Напишіть назву вулиці" type="text" id="formStreetCur" class="courier-block__input input-street">
+                                            </div>
+                                            <div class="courier-block__item">
+                                                <label for="formBudCur" class="info-checkout__label">Будинок</label>
+                                                <input type="text" id="formBudCur" class="courier-block__input input-build">
+                                            </div>
+                                            <div class="courier-block__item">
+                                                <label for="formNumCur" class="info-checkout__label">Квартира/офіс</label>
+                                                <input type="text" id="formNumCur" class="courier-block__input input-flat">
+                                            </div>
+                                        </div>
+                                        <div class="courier-block__row">
+                                            <div class="courier-block__item courier-block__item_textarea">
+                                                <label for="formMessage" class="courier-block__label">Коментар для кур’єра</label>
+                                                <textarea placeholder="Наприклад: код та номер під’їзду" name="message" id="formMessage" class="courier-block__textarea"></textarea>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="delivery-checkout__block _tabs-block new-mail-block block-delivery">
+                                    <form action="#" class="block-delivery__form">
+                                        <div class="block-delivery__column">
+                                            <div class="block-delivery__text">
+                                                За тарифами Нової пошти
+                                            </div>
+                                        </div>
+                                        <div class="block-delivery__column">
+                                            <div class="block-delivery__item">
+                                                <label for="delSelect" class="block-delivery__label block-delivery__label_select">Оберіть відділення Нової пошти</label>
+                                                <input placeholder="Оберіть відділення" type="text" id="delSelect" class="block-delivery__input">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="delivery-checkout__block _tabs-block mail-ua mail-ua-block">
+                                    <form action="#" class="mail-ua__form">
+                                        <div class="mail-ua__row">
+                                            <div class="mail-ua__item">
+                                                <label for="mailIndex" class="mail-ua__label">Поштовий індекс</label>
+                                                <input type="tel" id="mailIndex" class="mail-ua__input">
+                                            </div>
+                                            <div class="mail-ua__item mail-ua__item_street">
+                                                <label for="mailStreet" class="mail-ua__label">Вулиця</label>
+                                                <input placeholder="Напишіть назву вулиці" type="text" id="mailStreet" class="mail-ua__input">
+                                            </div>
+                                        </div>
+                                        <div class="mail-ua__row">
+                                            <div class="mail-ua__item">
+                                                <label for="mailBud" class="mail-ua__label">Дім</label>
+                                                <input type="text" id="mailBud" class="mail-ua__input">
+                                            </div>
+                                            <div class="mail-ua__item">
+                                                <label for="mailBud" class="mail-ua__label">Квартира/офіс</label>
+                                                <input type="text" id="mailBud" class="mail-ua__input">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <aside data-da=".checkout__container, 992, 1" class="checkout__page page-checkout">
+                        <div class="page-checkout__body">
+                            <div class="page-checkout__item item-checkout">
+                                <div class="item-checkout__img"><a href=""><img src="img/photo-clothes-women/01.jpg" alt=""></a></div>
+                                <div class="item-checkout__info info-checkout">
+                                    <div class="info-checkout__header">
+                                        <div class="info-checkout__title"><a href="">Зелена сукня-сорочка в білу смужку</a></div>
+                                        <div class="info-checkout__prise grn">1000</div>
+                                    </div>
+                                    <div class="info-checkout__bottom">
+                                        <div class="info-checkout__size">
+                                            <div class="filter-spoller__checkbox-size spoller-checkbox-size info-checkout__checkbox">
+                                                <input id="size-s" checked type="checkbox" name="" class="spoller-checkbox-size__input item-checkout__input">
+                                                <label for="size-s" class="spoller-checkbox-size__label info-checkout__label"><span>S</span></label>
+                                            </div>
+                                        </div>
+                                        <div class="info-checkout__quantity">
+                                            <div class="quantity">
+                                                <div class="quantity__button quantity__button_minus"></div>
+                                                <div class="quantity__input">
+                                                    <input autocomplete="off" type="text" name="form[]" value="1">
+                                                </div>
+                                                <div class="quantity__button quantity__button_plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="info-checkout__prise_mobile grn">1000</div>
+                                    <div class="info-checkout__button">
+                                        <a href=""><img src="img/filter-open.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page-checkout__item item-checkout">
+                                <div class="item-checkout__img"><a href=""><img src="img/photo-clothes-women/01.jpg" alt=""></a></div>
+                                <div class="item-checkout__info info-checkout">
+                                    <div class="info-checkout__header">
+                                        <div class="info-checkout__title"><a href="">Зелена сукня-сорочка в білу смужку</a></div>
+                                        <div class="info-checkout__prise grn">1000</div>
+                                    </div>
+                                    <div class="info-checkout__bottom">
+                                        <div class="info-checkout__size">
+                                            <div class="filter-spoller__checkbox-size spoller-checkbox-size info-checkout__checkbox">
+                                                <input id="size-s" checked type="checkbox" name="" class="spoller-checkbox-size__input item-checkout__input">
+                                                <label for="size-s" class="spoller-checkbox-size__label info-checkout__label"><span>S</span></label>
+                                            </div>
+                                        </div>
+                                        <div class="info-checkout__quantity">
+                                            <div class="quantity">
+                                                <div class="quantity__button quantity__button_minus"></div>
+                                                <div class="quantity__input">
+                                                    <input autocomplete="off" type="text" name="form[]" value="1">
+                                                </div>
+                                                <div class="quantity__button quantity__button_plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="info-checkout__prise_mobile grn">1000</div>
+                                    <div class="info-checkout__button">
+                                        <a href=""><img src="img/filter-open.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-checkout__bottom bottom-checkout">
+                            <div class="bottom-checkout__row">
+                                <div class="bottom-checkout__text">Доставка:</div>
+                                <div class="bottom-checkout__prise grn">70</div>
+                            </div>
+                            <div class="bottom-checkout__row">
+                                <div class="bottom-checkout__text">Загальна вартість:</div>
+                                <div class="bottom-checkout__prise prise-all grn">2070</div>
+                            </div>
+                        </div>
+                        <div data-da=".checkout__container, 992," class="page-checkout__button">
+                            <button type="submit" class="button-checkout">Замовити</button>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <foooter class="footer">
+            <div class="footer__container container">
+                <div class="footer__inner inner">
+                    <div class="footer__content">
+                        <nav class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="" class="footer__link"><img src="img/social-media/insta.svg" alt="Інстаграм Coys"></a></li>
+                                <li class="footer__item"><a href="" class="footer__link"><img src="img/social-media/facebook.svg" alt="Фейсбук Coys"></a></li>
+                                <li class="footer__item"><a href="" class="footer__link">Догляд</a></li>
+                                <li class="footer__item"><a href="" class="footer__link">Про Бренд</a></li>
+                                <li class="footer__item"><a href="" class="footer__link _touch">Lookbooks</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer__btn">
+                            <a href="#wrapper"><img src="img/arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foooter>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+</body>
+</html>

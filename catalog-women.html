@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coys - Каталог для жінок</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="ua">
+    <div class="wrapper" id="wrapper">
+        <header class="header" >
+            <div class="header__container container">
+                <div class="header__inner inner">
+                    <div class="burger__menu">  
+                        <div class="burger__menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <nav class="header__menu menu-header">
+                        <div class="header__content-mobile">
+                            <div class="header__symbol"><img src="img/symbol.svg" alt="Символ Coys"></div>
+                        </div>
+                        <ul class="menu-header__list">
+                            <li class="menu-header__item"><a href="catalog-women.html" class="menu-header__link active">Жінкам</a></li>
+                            <li class="menu-header__item"><a href="catalog-men.html" class="menu-header__link">Чоловікам</a></li>
+                            <li class="menu-header__item"><a href="" class="menu-header__link">Контакти</a></li>
+                            <li class="menu-header__item _touch"><a href="" class="menu-header__link">Про бренд</a></li>
+                            <li class="menu-header__item _touch"><a href="" class="menu-header__link">Догляд</a></li>
+                        </ul>
+                        <div class="header__social-media social-media-header">
+                            <div class="social-media-header__link"><a href=""><img src="img/social-media/insta.svg" alt="Інстаграм Coys"></a></div>
+                            <div class="social-media-header__link"><a href=""><img src="img/social-media/facebook.svg" alt="Фейсбук Coys"></a></div>
+                        </div>
+                    </nav>
+                    <div class="header__logo">
+                        <a href="index.html"><img src="img/logo.svg" alt="Логотип магазина Coys"></a>
+                    </div>
+                    <div class="header__content">
+                        <div class="header__phone">
+                            <a href="tel:+380971234567">+38 097 123 45 67</a>
+                        </div>
+                        <div data-da=".menu-header__list, 769, last" class="header__cabinet cabinet-header">
+                            <a href="" class="cabinet-header__link menu-header__link">кабінет</a>
+                        </div>
+                        <div class="header__search search-header">
+                            <div class="search-header__icon"><img src="img/search-header.svg" alt="Пошук товарів"></div>
+                            <div class="search-header__body">
+                                <form class="search-header__form" action="#">
+                                    <input class="search-header__input" type="text" name="search">
+                                    <button class="search-header__button" type="submit"><img src="img/search-header.svg" alt="Пошук товарів"></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="header__cart cart-header">
+                            <a class="cart-header__link" href=""><img src="img/cart-header.svg" alt="Корзина товарів"></a>
+                            <span>1</span>
+                        </div>
+                        <div data-da=".header__content-mobile, 769, 2" class="header__language language-header">
+                            <div class="language-header__item _en"><a href="">EN</a></div>
+                            <div class="language-header__item _ua"><a href="">UA</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container container">
+                <div class="main__inner inner">
+                    <aside class="main__side side-main">
+                        <div data-spollers="900,max" class="side-main__touch touch-side-main">
+                            <div class="touch-side-main__wrapper">
+                                <button tabindex="-1" type="button" data-spoller class="touch-side-main__title"><span>Фільтри</span></button>
+                                <div class="touch-side-main__content">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div data-da=".touch-side-main__content, 900, 1" class="side-main__body">
+                            <form action="#" class="filter">
+                                <div class="filter__content">
+                                    <div class="filter__section">
+                                        <div class="filter__checkbox">
+                                            <input class="checkbox__input" type="checkbox" id="sale">
+                                            <label class="checkbox__label" for="sale"><span>SALE%</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="filter__section">
+                                        <div class="filter__checkbox">
+                                            <input id="new" type="checkbox" name="" class="checkbox__input">
+                                            <label for="new" class="checkbox__label"><span>NEW</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="filter__section">
+                                        <div class="filter__checkbox">
+                                            <input id="special" type="checkbox" name="" class="checkbox__input">
+                                            <label for="special" class="checkbox__label"><span>Спеціальні пропозиції</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="filter__section">
+                                        <div class="filter__checkbox">
+                                            <input id="bestsellers" type="checkbox" name="" class="checkbox__input">
+                                            <label for="bestsellers" class="checkbox__label"><span>bestsellers</span></label>
+                                        </div>
+                                    </div>
+                                    <div data-spollers class="filter__section">
+                                        <div class="filter-spoller__inner">
+                                            <button tabindex="-1" type="button" data-spoller class="filter-spoller__title"><span>Весь одяг</span></button>
+                                            <div class="filter-spoller__items-clothes">
+                                                <div class="filter-spoller__checkbox-clothes spoller-checkbox-clothes">
+                                                    <input id="dresses" type="checkbox" name="" class="spoller-checkbox-clothes__input">
+                                                    <label for="dresses" class="spoller-checkbox-clothes__label"><span>Сукні</span></label>
+                                                </div>
+                                                <div class="filter-spoller__checkbox-clothes spoller-checkbox-clothes">
+                                                    <input id="trousers" type="checkbox" name="" class="spoller-checkbox-clothes__input">
+                                                    <label for="trousers" class="spoller-checkbox-clothes__label"><span>Штани</span></label>
+                                                </div>
+                                                <div class="filter-spoller__checkbox-clothes spoller-checkbox-clothes">
+                                                    <input id="shorts" type="checkbox" name="" class="spoller-checkbox-clothes__input">
+                                                    <label for="shorts" class="spoller-checkbox-clothes__label"><span>Шорти</span></label>
+                                                </div>
+                                                <div class="filter-spoller__checkbox-clothes spoller-checkbox-clothes">
+                                                    <input id="skirts" type="checkbox" name="" class="spoller-checkbox-clothes__input">
+                                                    <label for="skirts" class="spoller-checkbox-clothes__label"><span>Спідниці</span></label>
+                                                </div>
+                                                <div class="filter-spoller__checkbox-clothes spoller-checkbox-clothes">
+                                                    <input id="outerwear" type="checkbox" name="" class="spoller-checkbox-clothes__input">
+                                                    <label for="outerwear" class="spoller-checkbox-clothes__label"><span>Топи, майки та футболки</span></label>
+                                                </div>
+                                                <div class="filter-spoller__checkbox-clothes spoller-checkbox-clothes">
+                                                    <input id="shirt" type="checkbox" name="" class="spoller-checkbox-clothes__input">
+                                                    <label for="shirt" class="spoller-checkbox-clothes__label"><span>Сорочки та блузи</span></label>
+                                                </div>
+                                                <div class="filter-spoller__checkbox-clothes spoller-checkbox-clothes">
+                                                    <input id="jakcet" type="checkbox" name="" class="spoller-checkbox-clothes__input">
+                                                    <label for="jakcet" class="spoller-checkbox-clothes__label"><span>Піджаки та костюми</span></label>
+                                                </div>
+                                                <div class="filter-spoller__checkbox-clothes spoller-checkbox-clothes">
+                                                    <input id="allcloth" type="checkbox" name="" class="spoller-checkbox-clothes__input">
+                                                    <label for="allcloth" class="spoller-checkbox-clothes__label"><span>Весь одяг</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-spollers class="filter__section">
+                                        <div class="filter-spoller__inner">
+                                            <button tabindex="-1" type="button" data-spoller class="filter-spoller__title"><span>Колір</span></button>
+                                            <div class="filter-spoller__content">
+                                                <div class="filter-spoller__items-colors">
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="red" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="red" class="spoller-checkbox-colors__label"><span class="red color-input"><img src="img/red.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="orange" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="orange" class="spoller-checkbox-colors__label"><span class="orange color-input"><img src="img/orange.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="yellow" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="yellow" class="spoller-checkbox-colors__label"><span class="yellow color-input"><img src="img/yellow.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="orange-2" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="orange-2" class="spoller-checkbox-colors__label"><span class="orange color-input"><img src="img/orange.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="green" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="green" class="spoller-checkbox-colors__label"><span class="green color-input"><img src="img/green.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="blue" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="blue" class="spoller-checkbox-colors__label"><span class="blue color-input"><img src="img/blue.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="sapphirine" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="sapphirine" class="spoller-checkbox-colors__label"><span class="sapphirine color-input"><img src="img/sapphirine.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="purple" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="purple" class="spoller-checkbox-colors__label"><span class="purple color-input"><img src="img/purple.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="pink" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="pink" class="spoller-checkbox-colors__label"><span class="pink color-input"><img src="img/pink.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="black" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="black" class="spoller-checkbox-colors__label"><span class="black color-input"><img src="img/black.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="grey" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="grey" class="spoller-checkbox-colors__label"><span class="grey color-input"><img src="img/grey.svg" alt=""></span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-colors spoller-checkbox-colors">
+                                                        <input id="white" type="checkbox" name="" class="spoller-checkbox-colors__input">
+                                                        <label for="white" class="spoller-checkbox-colors__label"><span class="white color-input"><img src="img/white.svg" alt=""></span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-spollers class="filter__section">
+                                        <div class="filter-spoller__inner">
+                                            <button tabindex="-1" type="button" data-spoller class="filter-spoller__title"><span>Розмір</span></button>
+                                            <div class="filter-spoller__content">
+                                                <div class="filter-spoller__items-size">
+                                                    <div class="filter-spoller__checkbox-size spoller-checkbox-size">
+                                                        <input id="size-s" type="checkbox" name="" class="spoller-checkbox-size__input">
+                                                        <label for="size-s" class="spoller-checkbox-size__label"><span>S</span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-size spoller-checkbox-size">
+                                                        <input id="size-m" type="checkbox" name="" class="spoller-checkbox-size__input">
+                                                        <label for="size-m" class="spoller-checkbox-size__label"><span>M</span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-size spoller-checkbox-size">
+                                                        <input id="size-l" type="checkbox" name="" class="spoller-checkbox-size__input">
+                                                        <label for="size-l" class="spoller-checkbox-size__label"><span>L</span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-size spoller-checkbox-size">
+                                                        <input id="size-xl" type="checkbox" name="" class="spoller-checkbox-size__input">
+                                                        <label for="size-xl" class="spoller-checkbox-size__label"><span>XL</span></label>
+                                                    </div>
+                                                    <div class="filter-spoller__checkbox-size spoller-checkbox-size">
+                                                        <input id="size-2xl" type="checkbox" name="" class="spoller-checkbox-size__input">
+                                                        <label for="size-2xl" class="spoller-checkbox-size__label"><span>2XL</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="side-main__symbol">
+                                <img src="img/symbol.svg" alt="Символ Coys">
+                            </div>
+                        </div>
+                    </aside>
+                    <div class="main__content content-main">
+                        <div class="content-main__cards">
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/01.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 000</span>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item active"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/02.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/03.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 000</span>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/04.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/05.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <div class="card-content__current-price current-price grn">10 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/06.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 500</span>
+                                    <div class="card-content__current-price current-price grn">900</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/07.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка сорочка</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 000</span>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/08.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 500</span>
+                                    <div class="card-content__current-price current-price grn">1 100</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/01.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 000</span>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item active"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/02.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/03.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 000</span>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/04.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/05.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <div class="card-content__current-price current-price grn">10 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/06.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 500</span>
+                                    <div class="card-content__current-price current-price grn">900</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/07.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття-сорочка сорочка</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 000</span>
+                                    <div class="card-content__current-price current-price grn">1 000</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="content-main__card card-content">
+                                <div class="card-content__img">
+                                    <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/08.jpg" alt="Плаття-сорочка"></a>
+                                </div>
+                                <div class="card-content__info">
+                                    <a href="" class="card-content__title"><h6>Плаття</h6></a>
+                                    <span class="card-content__old-price old-price grn">2 500</span>
+                                    <div class="card-content__current-price current-price grn">1 100</div>
+                                </div>
+                                <ul class="card-content__color-list">
+                                    <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                    <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                    <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content-main__button button-content">
+                            <a href="#" class="button-content__inner" id="seeMore">Показати більше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <foooter class="footer">
+            <div class="footer__container container">
+                <div class="footer__inner inner">
+                    <div class="footer__content">
+                        <nav class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="" class="footer__link"><img src="img/social-media/insta.svg" alt="Інстаграм Coys"></a></li>
+                                <li class="footer__item"><a href="" class="footer__link"><img src="img/social-media/facebook.svg" alt="Фейсбук Coys"></a></li>
+                                <li class="footer__item"><a href="" class="footer__link">Догляд</a></li>
+                                <li class="footer__item"><a href="" class="footer__link">Про Бренд</a></li>
+                                <li class="footer__item"><a href="" class="footer__link _touch">Lookbooks</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer__btn">
+                            <a href="#wrapper"><img src="img/arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foooter>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+</body>
+</html>

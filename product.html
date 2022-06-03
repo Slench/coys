@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coys - Картка товара</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="ua">
+    <div class="wrapper" id="wrapper">
+        <header class="header" >
+            <div class="header__container container">
+                <div class="header__inner inner">
+                    <div class="burger__menu">  
+                        <div class="burger__menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <nav class="header__menu menu-header">
+                        <div class="header__content-mobile">
+                            <div class="header__symbol"><img src="img/symbol.svg" alt="Символ Coys"></div>
+                        </div>
+                        <ul class="menu-header__list">
+                            <li class="menu-header__item"><a href="" class="menu-header__link">Жінкам</a></li>
+                            <li class="menu-header__item"><a href="" class="menu-header__link">Чоловікам</a></li>
+                            <li class="menu-header__item"><a href="" class="menu-header__link">Контакти</a></li>
+                            <li class="menu-header__item _touch"><a href="" class="menu-header__link">Про бренд</a></li>
+                            <li class="menu-header__item _touch"><a href="" class="menu-header__link">Догляд</a></li>
+                        </ul>
+                        <div class="header__social-media social-media-header">
+                            <div class="social-media-header__link"><a href=""><img src="img/social-media/insta.svg" alt="Інстаграм Coys"></a></div>
+                            <div class="social-media-header__link"><a href=""><img src="img/social-media/facebook.svg" alt="Фейсбук Coys"></a></div>
+                        </div>
+                    </nav>
+                    <div class="header__logo">
+                        <a href="index.html"><img src="img/logo.svg" alt="Логотип магазина Coys"></a>
+                    </div>
+                    <div class="header__content">
+                        <div class="header__phone">
+                            <a href="tel:+380971234567">+38 097 123 45 67</a>
+                        </div>
+                        <div data-da=".menu-header__list, 769, last" class="header__cabinet cabinet-header">
+                            <a href="" class="cabinet-header__link menu-header__link">кабінет</a>
+                        </div>
+                        <div class="header__search search-header">
+                            <div class="search-header__icon"><img src="img/search-header.svg" alt="Пошук товарів"></div>
+                            <div class="search-header__body">
+                                <form class="search-header__form" action="#">
+                                    <input class="search-header__input" type="text" name="search">
+                                    <button class="search-header__button" type="submit"><img src="img/search-header.svg" alt="Пошук товарів"></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="header__cart cart-header">
+                            <a class="cart-header__link" href=""><img src="img/cart-header.svg" alt="Корзина товарів"></a>
+                            <span>1</span>
+                        </div>
+                        <div data-da=".header__content-mobile, 769, 2" class="header__language language-header">
+                            <div class="language-header__item _en"><a href="">EN</a></div>
+                            <div class="language-header__item _ua"><a href="">UA</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__product product container">
+                <div class="product__header header-product">
+                    <a href="" class="header-product__link">Назад</a>
+                </div>
+                <div class="product__body body-product">
+                    <div class="body-product__content">
+                        <div class="body-product__swiper mySwiper">
+                       
+                            <div class="body-product__swiper-pagination"></div>
+                        </div>
+                        <div data-da=".body-product__swiper, 1000, 1" class="body-product__swiper-wrapper swiper-wrapper">
+                            <div class="body-product__swiper-slide swiper-slide"><img src="img/product/01.jpg" alt=""></div>
+                            <div class="body-product__swiper-slide swiper-slide"><img src="img/product/02.jpg" alt=""></div>
+                            <div class="body-product__swiper-slide swiper-slide"><img src="img/product/03.jpg" alt=""></div>
+                            <div class="body-product__swiper-slide swiper-slide"><img src="img/product/04.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <aside class="body-product__page page-product">
+                        <div class="page-product__title">
+                            <h3>довга струмуюча сукня</h3>
+                        </div>
+                        <div class="page-product__info">
+                            <span class="page-product__old-price old-price grn">2 000</span>
+                            <div class="page-product__current-price current-price grn">1 000</div>
+                        </div>
+                        <ul class="card-content__color-list page-product__color-list">
+                            <li class="card-content__color-item active page-product__color-item"><img src="img/sapphirine.svg" alt=""></li>
+                            <li class="card-content__color-item page-product__color-item"><img src="img/grey.svg" alt=""></li>
+                            <li class="card-content__color-item page-product__color-item"><img src="img/green.svg" alt=""></li>
+                            <li class="card-content__color-item page-product__color-item"><img src="img/orange.svg" alt=""></li>
+                        </ul>
+                        <div class="page-product__about-color">
+                            <p>Для замовлення товару іншого кольору оформлюйте, будь ласка, індивідульний пошив нижче</p>
+                        </div>
+                        <div class="filter-spoller__content page-product__size size-product">
+                            <div class="filter-spoller__items-size size-product__items">
+                                <div class="filter-spoller__checkbox-size spoller-checkbox-size size-product__checkbox">
+                                    <input checked id="size-s" type="radio" name="sizeproduct" class="spoller-checkbox-size__input size-product__input">
+                                    <label for="size-s" class="spoller-checkbox-size__label size-product__label"><span>S</span></label>
+                                </div>
+                                <div class="filter-spoller__checkbox-size spoller-checkbox-size size-product__checkbox">
+                                    <input id="size-m" type="radio" name="sizeproduct" class="spoller-checkbox-size__input size-product__input">
+                                    <label for="size-m" class="spoller-checkbox-size__label size-product__label"><span>M</span></label>
+                                </div>
+                                <div class="filter-spoller__checkbox-size spoller-checkbox-size size-product__checkbox">
+                                    <input id="size-l" type="radio" name="sizeproduct" class="spoller-checkbox-size__input size-product__input">
+                                    <label for="size-l" class="spoller-checkbox-size__label size-product__label"><span>L</span></label>
+                                </div>
+                                <div class="filter-spoller__checkbox-size spoller-checkbox-size size-product__checkbox">
+                                    <input id="size-xl" type="radio" name="sizeproduct" class="spoller-checkbox-size__input size-product__input">
+                                    <label for="size-xl" class="spoller-checkbox-size__label size-product__label"><span>XL</span></label>
+                                </div>
+                                <div class="filter-spoller__checkbox-size spoller-checkbox-size size-product__checkbox">
+                                    <input id="size-2xl" type="radio" name="sizeproduct" class="spoller-checkbox-size__input size-product__input">
+                                    <label for="size-2xl" class="spoller-checkbox-size__label size-product__label"><span>2XL</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-product__table-size table-size-product">
+                            <a href="#popup__table-size" class="table-size-product__link popup-link">Таблиця розмірів</a>
+                        </div>
+                        <div class="page-product__actions-product actions-product">
+                            <button class="actions-product__link">додати в кошик</button>
+                        </div>
+                        <div class="page-product__individual individual-product">
+                            <div class="individual-product__text">
+                                <p>Для купівлі в один клік або індувідуального пошиву, залишіть свій номер</p>
+                            </div>
+                            <div class="individual-product__form form-product">
+                                <form action="#" class="form-product__body">
+                                    <input placeholder="+380 __ ___ __ __" id="phone" type="tel" class="form-product__input">
+                                    <button class="form-product__btn">Купити</button>
+                                </form>
+                            </div>
+                            <div class="individual-product__warning">
+                                <p>Індивідуальне замовлення при 100% оплаті</p>
+                            </div>
+                        </div>
+                        <div data-spollers class="page-product__bottom bottom-product">
+                            <div class="bottom-product__item">
+                                <button tabindex="-1" type="button" data-spoller class="bottom-product__title">подробиці</button>
+                                <div class="bottom-product__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maxime! 
+                                </div>
+                            </div>
+                            <div class="bottom-product__item">
+                                <button tabindex="-1" type="button" data-spoller class="bottom-product__title">доставка</button>
+                                <div class="bottom-product__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maxime!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, maxime! 
+                                </div>
+                            </div>
+                            <div class="bottom-product__item">
+                                <button tabindex="-1" type="button" data-spoller class="bottom-product__title">Повернення обмін</button>
+                                <div class="bottom-product__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+            <section class="main__other other">
+                <div class="other__container container">
+                    <div class="other__title">
+                        <h1>Вам може сподобатись</h1>
+                    </div>
+                    <div class="other__items">
+                        <div class="content-main__card card-content other__item">
+                            <div class="card-content__img">
+                                <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/03.jpg" alt="Плаття-сорочка"></a>
+                            </div>
+                            <div class="card-content__info">
+                                <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                <span class="card-content__old-price old-price grn">2 000</span>
+                                <div class="card-content__current-price current-price grn">1 000</div>
+                            </div>
+                            <ul class="card-content__color-list">
+                                <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="content-main__card card-content other__item">
+                            <div class="card-content__img">
+                                <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/02.jpg" alt="Плаття-сорочка"></a>
+                            </div>
+                            <div class="card-content__info">
+                                <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                <span class="card-content__old-price old-price grn">2 000</span>
+                                <div class="card-content__current-price current-price grn">1 000</div>
+                            </div>
+                            <ul class="card-content__color-list">
+                                <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="content-main__card card-content other__item">
+                            <div class="card-content__img">
+                                <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/01.jpg" alt="Плаття-сорочка"></a>
+                            </div>
+                            <div class="card-content__info">
+                                <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                <span class="card-content__old-price old-price grn">2 000</span>
+                                <div class="card-content__current-price current-price grn">1 000</div>
+                            </div>
+                            <ul class="card-content__color-list">
+                                <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="content-main__card card-content other__item">
+                            <div class="card-content__img">
+                                <a href="" class="card-content__img-link"><img src="img/photo-clothes-women/04.jpg" alt="Плаття-сорочка"></a>
+                            </div>
+                            <div class="card-content__info">
+                                <a href="" class="card-content__title"><h6>Плаття-сорочка</h6></a>
+                                <span class="card-content__old-price old-price grn">2 000</span>
+                                <div class="card-content__current-price current-price grn">1 000</div>
+                            </div>
+                            <ul class="card-content__color-list">
+                                <li class="card-content__color-item"><a href=""><img src="img/sapphirine.svg" alt=""></a></li>
+                                <li class="card-content__color-item"><a href=""><img src="img/grey.svg" alt=""></a></li>
+                                <li class="card-content__color-item active"><a href=""><img src="img/green.svg" alt=""></a></li>
+                                <li class="card-content__color-item"><a href=""><img src="img/orange.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <foooter class="footer">
+            <div class="footer__container container">
+                <div class="footer__inner inner">
+                    <div class="footer__content">
+                        <nav class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="" class="footer__link"><img src="img/social-media/insta.svg" alt="Інстаграм Coys"></a></li>
+                                <li class="footer__item"><a href="" class="footer__link"><img src="img/social-media/facebook.svg" alt="Фейсбук Coys"></a></li>
+                                <li class="footer__item"><a href="" class="footer__link">Догляд</a></li>
+                                <li class="footer__item"><a href="" class="footer__link">Про Бренд</a></li>
+                                <li class="footer__item"><a href="" class="footer__link _touch">Lookbooks</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer__btn">
+                            <a href="#wrapper"><img src="img/arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </foooter>
+        <div id="popup__table-size" class="popup__table-size size-popup popup">
+			<div class="popup__body size-popup__body">
+				<div class="popup__content size-popup__content">
+					<a href="#header" class="popup__close close-popup">X</a>
+					<div class="popup__title size-popup__title">Таблиця розмірів</div>
+					<div class="size-popup__img">
+                        <img src="img/table-size.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="actions-product__body body-actions">
+            <div class="body-actions__inner">
+                <div class="body-actions__content">
+                    <div class="body-actions__close">
+                        <button class="body-actions__btn"><img src="img/filter-open.svg" alt=""></button>
+                    </div>
+                    <h6 class="body-actions__title">дякуємо!</h6>
+                    <p class="body-actions__text">Товар успішно додано в кошик.</p>
+                    <a href="" class="body-actions__draw">оформити замовлення</a><br>
+                    <a href="" class="body-actions__continue">Продовжити покупки</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+</body>
+</html>
